@@ -47,6 +47,7 @@ The platform leverages modern frameworks and tools like **Next.js** for the fron
 - **Meal Logging**: Users can log their meals manually or by selecting from pre-defined options, tracking their calorie intake.
 - **Sleep Tracking**: Users can input their sleep start and end times to track their sleep patterns, with a chart showing weekly sleep duration.
 - **Admin Dashboard**: Admins can manage users, view analytics, and send notifications to users for updates or alerts.
+- **AI-Driven Recommendations**: Seamlessly integrates with your nutrition, workout, and sleep data to provide personalized health and fitness guidance tailored to your goals and lifestyle.
 
 ### Post-MVP Features
 
