@@ -100,6 +100,7 @@ Below are some screenshots of the app's user interface:
 ![Screenshot 2025-05-21 041137](https://github.com/user-attachments/assets/523907d3-852c-4408-81f5-0ab8a45170e3)
 ![Screenshot 2025-05-21 041045](https://github.com/user-attachments/assets/38748148-7d5b-47d5-8b70-dedce11f7b9d)
 ![Screenshot 2025-05-21 041033](https://github.com/user-attachments/assets/bbf51e3a-900c-4cb5-b70a-08c2a4781fd0)
+![image](https://github.com/user-attachments/assets/73642145-3884-4473-b6c0-53b6fd693716)
 ![Screenshot 2025-05-21 040956](https://github.com/user-attachments/assets/982abc05-7b14-4f5c-bd84-627294ca1b1b)
 
 
