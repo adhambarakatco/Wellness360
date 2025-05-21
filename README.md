@@ -91,7 +91,7 @@ Below are some screenshots of the app's user interface:
 ![Screenshot 2025-05-11 212451](https://github.com/user-attachments/assets/9fddab15-938f-4640-bffc-1518c861402b)
 ![image](https://github.com/user-attachments/assets/79be0929-b7f1-48a8-8df1-282b847b4079)
 ![Screenshot 2025-04-20 163721](https://github.com/user-attachments/assets/ef2da8a3-45b6-4ba7-a267-21ec807edc3b)
-
+![image](https://github.com/user-attachments/assets/b6451814-f7bb-494b-889c-8906b9234697)
 
 
 ## Future Enhancements
