@@ -1,6 +1,6 @@
 # Wellness360 - Full-Stack Fitness Tracker
+
 https://wellness-360-client.onrender.com/
-![Screenshot 2025-05-11 212451](https://github.com/user-attachments/assets/9fddab15-938f-4640-bffc-1518c861402b)
 
 ## Overview
 
@@ -92,6 +92,15 @@ Below are some screenshots of the app's user interface:
 ![image](https://github.com/user-attachments/assets/79be0929-b7f1-48a8-8df1-282b847b4079)
 ![Screenshot 2025-04-20 163721](https://github.com/user-attachments/assets/ef2da8a3-45b6-4ba7-a267-21ec807edc3b)
 ![image](https://github.com/user-attachments/assets/b6451814-f7bb-494b-889c-8906b9234697)
+![Screenshot 2025-05-21 040847](https://github.com/user-attachments/assets/85ee7898-eaee-4bb9-9428-db9133c0e7a2)
+![Screenshot 2025-05-21 040805](https://github.com/user-attachments/assets/e46b874a-8f34-4a85-beff-3219208996aa)
+![Screenshot 2025-05-21 040455](https://github.com/user-attachments/assets/e49ab129-9b09-48ea-a29f-d9f07019ca70)
+![Screenshot 2025-05-21 040357](https://github.com/user-attachments/assets/f5c0366a-3d58-458f-8f6a-a9c38bf561e3)
+![Screenshot 2025-05-21 032800](https://github.com/user-attachments/assets/c14a6ffd-102e-4a69-bfe9-97831e05d7e7)
+![Screenshot 2025-05-21 041137](https://github.com/user-attachments/assets/523907d3-852c-4408-81f5-0ab8a45170e3)
+![Screenshot 2025-05-21 041045](https://github.com/user-attachments/assets/38748148-7d5b-47d5-8b70-dedce11f7b9d)
+![Screenshot 2025-05-21 041033](https://github.com/user-attachments/assets/bbf51e3a-900c-4cb5-b70a-08c2a4781fd0)
+![Screenshot 2025-05-21 040956](https://github.com/user-attachments/assets/982abc05-7b14-4f5c-bd84-627294ca1b1b)
 
 
 ## Future Enhancements
