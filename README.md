@@ -89,6 +89,7 @@ To run the project locally, follow these steps:
 ## Screenshots
 Below are some screenshots of the app's user interface:
 ![Screenshot 2025-05-11 212451](https://github.com/user-attachments/assets/9fddab15-938f-4640-bffc-1518c861402b)
+![image](https://github.com/user-attachments/assets/cfdd1087-8c3e-49cb-8da0-ef0644391801)
 ![image](https://github.com/user-attachments/assets/79be0929-b7f1-48a8-8df1-282b847b4079)
 ![Screenshot 2025-05-21 040847](https://github.com/user-attachments/assets/85ee7898-eaee-4bb9-9428-db9133c0e7a2)
 ![Screenshot 2025-05-21 040805](https://github.com/user-attachments/assets/e46b874a-8f34-4a85-beff-3219208996aa)
