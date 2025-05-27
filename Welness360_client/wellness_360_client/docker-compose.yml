@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  wellness360:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: wellness360-client
+    container_name: wellness360-client
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_API_URL=https://wellness-360-server.onrender.com # Replace with your actual API URL
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    # Optional: Add your favorite monitoring or logging tools
+    # Example for using Prometheus metrics with Node.js apps
+    # labels:
+    #  - "com.example.description=Wellness 360 Client"
+    #  - "com.example.department=Health Technology" 

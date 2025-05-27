@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --header-height: 4rem;
+  }
+
+  body {
+    @apply antialiased bg-black text-white;
+  }
+
+  /* Improved scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-white/10 rounded-full hover:bg-white/20 transition-colors;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-xl font-medium transition-all duration-300 inline-flex items-center justify-center;
+  }
+  
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white shadow-lg shadow-primary/25 hover:shadow-primary/40 hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply bg-white/5 hover:bg-white/10 text-white border border-white/10 backdrop-blur-sm hover:-translate-y-0.5;
+  }
+
+  /* Gradient text animation */
+  .animate-gradient {
+    background: linear-gradient(to right, #00A651, #33B973, #00A651);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 8s ease infinite;
+  }
+}
+
+@layer utilities {
+  .bg-300 {
+    background-size: 300% 300%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} 
