@@ -1,6 +1,8 @@
 # Wellness360 – Full-Stack Fitness Tracker Platform
 
 🚀 Live Demo: [wellness-360-client.onrender.com](https://wellness-360-client.onrender.com/)
+              
+🚀 Live Demo: [wellness-360-server.onrender.com](https://wellness-360-server.onrender.com/)
 
 ---
 
@@ -80,7 +82,8 @@ Built with **Next.js**, **NestJS**, **MongoDB**, and **Docker**, Wellness360 off
 
 ## 👥 User Stories
 
-- _As a user_, I can log daily workouts, meals, and sleep to stay on track with my goals.
+- _As a user_, I can log daily workouts, meals, and sleep to stay on track with my goals with AI assistance.
+- _As a user_, I get AI reccomdendation for a fully made workout plan made only for me using my profile details and logs for free.
 - _As a user_, I receive notifications about goal progress, inactivity, or custom alerts.
 - _As an admin_, I can manage users, view trends, and send platform updates or reminders.
 
@@ -123,18 +126,28 @@ Visit [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-### 📊 Dashboard
+### Dashboard
 
 ![Dashboard](https://github.com/user-attachments/assets/11ea46c7-51f4-4a4b-bd76-b920102bd1d6)
 
-### 💪 Activity Tracking
+### Activity Tracking
 
-![Activity Tracking](https://github.com/user-attachments/assets/d14c8708-b5a0-4465-8a56-c0a7e52626be)
+![Workouts](https://github.com/user-attachments/assets/d14c8708-b5a0-4465-8a56-c0a7e52626be)
 
+![Nutritiion](https://github.com/user-attachments/assets/c53411df-7c53-4fa1-8724-e484229bb6b8)
 
+![Sleep](https://github.com/user-attachments/assets/d6532c4a-9873-4f56-9a67-21bbb87e5bf6)
 
+### AI Recomendations
+![AI Generated Workout plan](https://github.com/user-attachments/assets/8b82b56b-c083-4708-ae1a-7f3bcb9d1325)
+
+### ChatBot
+![ChatBot](https://github.com/user-attachments/assets/5782319a-f390-4814-8852-d52f84c05802)
+
+### Real Time Notofication System
+![Notifications](https://github.com/user-attachments/assets/0f5bc908-447f-4745-b793-732db1a8748b)
 
 ---
 
@@ -153,5 +166,4 @@ Visit [http://localhost:3000](http://localhost:3000)
 
 **Adham Barakat**  
 GitHub: [@adhambarakatco](https://github.com/adhambarakatco)  
-Email: adham.barakat@example.com  
-LinkedIn: [linkedin.com/in/adhambarakat](https://linkedin.com/in/adhambarakat)
+LinkedIn: [linkedin.com/in/adhambarakat](www.linkedin.com/in/adham-hisham-barakat)
