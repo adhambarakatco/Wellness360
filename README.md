@@ -1,99 +1,157 @@
-# Wellness360 - Full-Stack Fitness Tracker
+# Wellness360 – Full-Stack Fitness Tracker Platform
 
-https://wellness-360-client.onrender.com/
+🚀 Live Demo: [wellness-360-client.onrender.com](https://wellness-360-client.onrender.com/)
 
-## Overview
+---
 
-**Wellness 360** is a full-stack fitness tracker web application designed to help users track and manage their workouts, nutrition, and sleep. The platform is built with a modern tech stack, including **Next.js**, **NestJS**, **MongoDB**, **TypeScript**, **JWT**, and **Docker**. It offers a polished, intuitive UI, secure token-based authentication, and is fully deployed and production-ready.
+## 📌 Overview
 
-The application allows users to log daily activity, monitor progress, and set personal fitness goals. Admins have access to an analytics dashboard for managing users and monitoring engagement.
+**Wellness360** is a full-stack, production-grade fitness tracking platform that empowers users to monitor and improve their overall wellness—covering workouts, nutrition, and sleep. Designed with a modern, modular architecture, it features secure authentication, scalable infrastructure, and an intuitive user interface.
 
-## Table of Contents
+Built with **Next.js**, **NestJS**, **MongoDB**, and **Docker**, Wellness360 offers both end-users and administrators a data-driven, interactive experience with real-time tracking, insightful analytics, and smart recommendations.
 
-- [Project Description](#project-description)
-- [Technologies Used](#technologies-used)
-- [Features](#features)
-  - [Core Features](#core-features)
-  - [Post-MVP Features](#post-mvp-features)
-- [User Stories and Backlog](#user-stories-and-backlog)
-- [How to Run](#how-to-run)
-- [Screenshots](#screenshots)
-- [Future Enhancements](#future-enhancements)
-- [Evaluation Criteria](#evaluation-criteria)
-- [Contact Information](#contact-information)
+---
 
-## Project Description
+## ⚙️ Tech Stack
 
-**Wellness 360** is designed to empower individuals, especially athletes and health-conscious users, to manage their fitness journey in a centralized, easy-to-use platform. With features like workout logging, meal tracking, sleep duration tracking, and goal-setting, **Wellness 360** aims to improve user engagement and provide data-driven insights to motivate users.
+| Layer       | Technology                          |
+|-------------|--------------------------------------|
+| Frontend    | Next.js, React, TypeScript           |
+| Backend     | NestJS, TypeScript, MongoDB          |
+| Auth        | JWT (JSON Web Tokens), Google OAuth  |
+| DevOps      | Docker, GitHub Actions               |
+| Testing     | Jest, Cypress, Postman               |
+| API Docs    | Swagger                              |
 
-The platform leverages modern frameworks and tools like **Next.js** for the frontend, **NestJS** for the backend, and **MongoDB** for data storage. The use of **JWT** ensures secure, token-based authentication, while **Docker** allows for easy deployment and scalability.
+---
 
-## Technologies Used
+## ✨ Key Features
 
-- **Frontend**: Next.js, React, TypeScript
-- **Backend**: NestJS, MongoDB, TypeScript, Swagger (API docs)
-- **Authentication**: JWT (JSON Web Token)
-- **Containerization**: Docker
-- **CI/CD**: GitHub Actions
-- **Testing**: Jest, Cypress, Postman
+### 👤 User Functionality
 
-## Features
+- **Secure Registration & Login**  
+  Supports email/password and Google OAuth with encrypted JWT-based authentication.
 
-### Core Features
+- **Personal Fitness Profiles**  
+  Users can configure height, weight, goals, and preferences.
 
-- **User Registration and Authentication**: Users can securely register and log in via email/password or Google OAuth. Admins have elevated privileges for managing the platform.
-- **Personalized Fitness Profile**: Users can set up and update their fitness profile, including weight, height, and fitness goals.
-- **Activity Tracking**: Users can log daily calories, workouts, and steps. Weekly and monthly activity trends are displayed in an easy-to-read format.
-- **Meal Logging**: Users can log their meals manually or by selecting from pre-defined options, tracking their calorie intake.
-- **Sleep Tracking**: Users can input their sleep start and end times to track their sleep patterns, with a chart showing weekly sleep duration.
-- **Admin Dashboard**: Admins can manage users, view analytics, and send notifications to users for updates or alerts.
-- **AI-Driven Recommendations**: Seamlessly integrates with your nutrition, workout, and sleep data to provide personalized health and fitness guidance tailored to your goals and lifestyle.
+- **Workout & Activity Logging**  
+  Daily tracking of steps, calories, and workouts with visual feedback with AI Assistancce for insersions.
 
-### Post-MVP Features
+- **Meal Tracking**  
+  Manual and predefined meal logging to monitor calorie intake with AI Assistancce for insersions.
 
-- **Advanced Analytics**: Users can compare calorie intake vs. burned calories over time and export data in CSV/PDF formats.
-- **Social Sharing**: Users can share their achievements, such as workout milestones, on social media.
-- **Wearable Device Integration**: Sync data with wearable devices like Fitbit or Apple Health to automatically track steps, heart rate, and sleep data.
-- **Gamification**: Introduce achievements, challenges, and rewards to enhance user engagement.
+- **Sleep Tracking**  
+  Logs and visualizes sleep duration with week-over-week analysis.
 
-## User Stories and Backlog
+- **AI-Powered Health Suggestions**  
+  Personalized recommendations for workout plans and nutrition plan based on fitness, nutrition, and sleep data.
 
-The product backlog for **Wellness 360** follows **MoSCoW** and **INVEST** criteria for prioritization, ensuring that the development process is efficient and focused on delivering essential features for the MVP (Minimum Viable Product). Below are some of the key user stories:
+- **Real-Time Notifications**  
+  Users receive timely reminders, motivational nudges, and admin alerts through an integrated notification system.
 
-- **User Registration**: As a user, I want to register securely so that I can start tracking my fitness journey.
-- **Activity Logging**: As a user, I want to log my daily calories and workouts so that I can track my progress.
-- **Admin Management**: As an admin, I want to manage users and view analytics to ensure platform safety and monitor user engagement.
-- **Notifications**: As a user, I want to receive notifications for updates or alerts regarding my fitness goals.
-
-For a detailed list of user stories and the product backlog, refer to the document: [Wellness 360 User Stories - Product Backlog](file-64s17GGBBAXW5BBsdoyXqf).
-
-## How to Run
-
-To run the project locally, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/Wellness360.git
-   cd Wellness360
-
-2. **Install dependencies**:
-    npm install
-
-3. Set up environment variables: Create a .env file and configure your database connection and authentication keys.
-
-4. **Run the application**:
-   npm run dev
-
-5. Access the app: Open http://localhost:3000 in your browser.
-
-## Screenshots
+- **Gemini AI Chatbot**  
+  An intelligent virtual assistant designed to provide personalized support and guidance on nutrition, workouts, and overall wellness. It helps users stay informed, motivated, and on track with their fitness goals.
 
 
-## Future Enhancements
-The following features are planned post-MVP:
 
-AI-driven insights: Personalized fitness and nutrition recommendations based on user data.
+### 🛠️ Admin Functionality
 
-Mobile App: Build a mobile version of the app for better accessibility.
+- **Dashboard Analytics**  
+  Visualize user engagement, activity patterns, and system usage metrics.
 
-Additional Integrations: Integration with other fitness tracking devices and third-party APIs.
+- **User Management**  
+  Role-based user access, account moderation, and activity monitoring.
+
+- **Broadcast Notifications**  
+  Admins can push system-wide announcements or targeted alerts to users.
+
+---
+
+## 🔮 Post-MVP Enhancements
+
+- Integration with **Fitbit** / **Apple Health** for wearable sync  
+- **Gamification**: Badges, challenges, and rewards  
+- **Data Export**: Generate CSV or PDF reports  
+- **Social Sharing**: Share milestones on social platforms  
+- Native **Mobile App** (React Native or Flutter)
+
+---
+
+## 👥 User Stories
+
+- _As a user_, I can log daily workouts, meals, and sleep to stay on track with my goals.
+- _As a user_, I receive notifications about goal progress, inactivity, or custom alerts.
+- _As an admin_, I can manage users, view trends, and send platform updates or reminders.
+
+For detailed user stories and backlog, refer to `docs/UserStories_Backlog.md`.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/adhambarakatco/Wellness360.git
+cd Wellness360
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file at the root with:
+
+```
+MONGODB_URI=<your Mongo URI>
+JWT_SECRET=<your JWT secret>
+GOOGLE_CLIENT_ID=<Google OAuth client>
+```
+
+### 4. Run the App
+
+```bash
+npm run dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🖼️ Screenshots
+
+### 📊 Dashboard
+
+![Dashboard](https://github.com/user-attachments/assets/11ea46c7-51f4-4a4b-bd76-b920102bd1d6)
+
+### 💪 Activity Tracking
+
+![Activity Tracking](https://github.com/user-attachments/assets/d14c8708-b5a0-4465-8a56-c0a7e52626be)
+
+
+
+
+---
+
+## ✅ Evaluation Criteria
+
+- Modular full-stack architecture with reusable services
+- RESTful API with Swagger documentation
+- Token-based, role-aware access control
+- Responsive UI/UX with dashboard visualizations
+- Fully Dockerized for local or cloud deployment
+- Unit and end-to-end test coverage with CI/CD
+
+---
+
+## 📫 Contact
+
+**Adham Barakat**  
+GitHub: [@adhambarakatco](https://github.com/adhambarakatco)  
+Email: adham.barakat@example.com  
+LinkedIn: [linkedin.com/in/adhambarakat](https://linkedin.com/in/adhambarakat)
