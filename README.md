@@ -128,6 +128,12 @@ Visit [http://localhost:3000](http://localhost:3000)
 
 ## Screenshots
 
+### Landing Page 
+![image](https://github.com/user-attachments/assets/2089abd8-3377-4b53-81eb-1d224a52a738)
+![image](https://github.com/user-attachments/assets/e5044e9f-e63f-4bcb-a69e-7a42e0e0b985)
+
+
+
 ### Dashboard
 
 ![Dashboard](https://github.com/user-attachments/assets/11ea46c7-51f4-4a4b-bd76-b920102bd1d6)
