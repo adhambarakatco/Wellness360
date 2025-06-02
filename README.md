@@ -47,7 +47,7 @@ Built with **Next.js**, **NestJS**, **MongoDB**, and **Docker**, Wellness360 off
   Logs and visualizes sleep duration with week-over-week analysis.
 
 - **AI-Powered Health Suggestions**  
-  Personalized recommendations for workout plans and nutrition plan based on fitness, nutrition, and sleep data.
+  AI Personalized recommendations for workout plans and nutrition plan based on fitness, nutrition, and sleep data.
 
 - **Real-Time Notifications**  
   Users receive timely reminders, motivational nudges, and admin alerts through an integrated notification system.
